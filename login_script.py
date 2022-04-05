@@ -8,6 +8,10 @@ from pykeyboard import PyKeyboard
 from pymouse import PyMouse
 import win32api, win32con
 
+import pyautogui
+from win32gui import GetWindowText, GetForegroundWindow
+import random
+
 k = PyKeyboard()
 m = PyMouse()
 
